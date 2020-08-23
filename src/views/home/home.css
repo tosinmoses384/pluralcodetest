@@ -328,14 +328,24 @@
         box-shadow: 40px 4px 100px rgba(159, 155, 155, 0.25);
     }
 
-    /* FINAL CONTAINER */
+    /* FINAL CONTAINERS */
 
-    .father-container .inner-main-div {
+
+    .father-container .up-div {
         /* border: 1px dashed red; */
+
+        background: #FFFFFF;
+        box-shadow: 40px 4px 100px rgba(159, 155, 155, 0.25);
+    }
+
+    /* INNER MAIN DIVS */
+    .father-container .inner-main-div {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        justify-content: center;
+
+        /* border: 1px dashed red; */
         /* position: absolute;
         width: 1360px;
         height: 846px; */
@@ -343,85 +353,283 @@
         box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
     }
 
-    .father-container .up-div {
+    .father-container .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .father-container .top-1-div {
         /* border: 1px dashed red; */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;        
-
-        background: #FFFFFF;
-        box-shadow: 40px 4px 100px rgba(159, 155, 155, 0.25);
-    }
-
-    .father-container .img-first,
-    .father-container .img-second,
-    .father-container .img-third {
-        border: 1px dashed red;
-        width: 30%;
-    }
-
-    .father-container .down-div {
-        border: 1px dashed red;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%
-    }
-
-    .father-container .img-fourth {
-        border: 1px dashed red;
-        width: 60%;
-    }
-
-    .father-container .see-more {
-        border: 1px dashed red;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        width: 50%;
+        padding: 1.5rem 1.5rem 0rem;
+        margin-left: 2rem;
         
+        /* position: absolute;
+        width: 446px;
+        height: 341px;
+        left: 291px;
+        top: 177px; */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.17);
+        border-radius: 20px;
+
     }
 
-    .father-container .text1 {
+    .father-container .top-1-div-h3 {
+        /* border: 1px dashed red; */
         /* position: absolute;
-        left: 73.9%;
-        right: 10.59%;
-        top: 50.12%;
-        bottom: 47.99%; */
+        left: 27.72%;
+        right: 52.13%;
+        top: 25.18%;
+        bottom: 70.69%; */
 
         font-family: Ubuntu;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
-        /* line-height: 16px;
-        letter-spacing: 0.00676943px; */
-        color: #425FC6;
-
-
-    }
-
-    .father-container .seemore {
-        /* position: absolute;
-        left: 77.79%;
-        right: 6.69%;
-        top: 91.02%;
-        bottom: 7.09%; */
-
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 13px;
+        font-size: 24px;
         /* line-height: 16px;
         text-align: center;
         letter-spacing: 0.00676943px; */
-        color: #425FC6;
+        color: #979797;
+    }
 
+    .father-contaier .top-1-div-p {
+
+        /* position: absolute;
+        width: 345px;
+        height: 68px;
+        left: calc(50% - 345px/2 - 163.5px);
+        top: calc(50% - 68px/2 - 125px); */
+
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        /* line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.0257883px; */
+        color: rgba(0, 0, 0, 0.25);
+    }
+
+    .father-container .input-class {
+        /* position: absolute;
+        width: 346px;
+        height: 49px;
+        left: 341px;
+        top: 333px; */
+
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        margin-bottom: 0.5rem;
+        width: 50%;
+    }
+
+    .father-container .verify {
+        /* border: 1px dashed red; */
+        /* position: absolute;
+        width: 346px;
+        height: 49px;
+        left: 341px;
+        top: 402px; */
+        background: #063E9B;
+        color: #fff;
+        padding: 2px 8rem;
+    }
+
+    .father-container .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .father-container .top-2-div {
+        /* border: 1px dashed red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+    }
+
+    .father-container .Bio {
+        /* border: 1px dashed red; */
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .father-container .bio-header {
+        /* position: absolute;
+        left: 60.81%;
+        right: 19.04%;
+        top: 23.4%;
+        bottom: 72.46%; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        /* line-height: 16px;
+        letter-spacing: 0.00676943px; */
+        color: #063E9B;
     }
 
 
+    .father-container .email,
+    .father-container .phone,
+    .father-container .Age
+     {
+        /* position: absolute;
+        left: 60.81%;
+        right: 12.5%;
+        top: 37.35%;
+        bottom: 60.05%; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        /* line-height: 16px;
+        letter-spacing: 0.00676943px; */
+        color: #979797;
+    }
+
+    /* .father-container .Insurance {
+        border: 1px dashed red;
+    } */
+
+    .father-container .insurance-header {
+
+        /* position: absolute;
+        left: 60.81%;
+        right: 19.04%;
+        top: 43.14%;
+        bottom: 52.72%; */
+
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        /* line-height: 16px;
+        letter-spacing: 0.00676943px; */
+        color: #D82424;
+    }
+
+    .father-container .Coverage, 
+    .father-container .Claims, 
+    .father-container .Status
+    {
+        /* position: absolute;
+        left: 60.81%;
+        right: 12.5%;
+        top: 56.03%;
+        bottom: 41.37%; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        /* line-height: 16px;
+        letter-spacing: 0.00676943px; */
+        color: #979797;
+
+    }
+
+    .father-container .centered {
+        text-align: center;
+    }
+
+    .father-container .bottom {
+         /* border: 1px dashed red; */
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         width: 100%;
+    }
+
+    .father-container .bottom-1-div {
+        /* border: 1px dashed red; */
+        width: 80%;
+    }
+
+    .father-container .bottom-2-div {
+        /* border: 1px dashed red; */
+        width: 80%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center
+    }
+
+    .father-container .bottom-3-div {
+        /* border: 1px dashed red; */
+        width: 80%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center
+    }
+
+    .father-container .bottom-1-div {
+        /* position: absolute;
+        width: 963px;
+        height: 573px;
+        left: 291px;
+        top: 568px; */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+        border-radius: 20px;
+
+    }
+
+    .father-container .hash,
+    .father-container .name,
+    .father-container .Trip,
+    .father-container .Date,
+    .father-container .Amount 
+    {
+        /* position: absolute;
+        left: 64.26%;
+        right: 26.54%;
+        top: 80.5%;
+        bottom: 17.49%; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        /* line-height: 16px; */
+        /* letter-spacing: 0.00676943px; */
+        color: #000000;
+
+    }
+
+    .father-container .Name-p,
+    .father-container .Trip-p,
+    .father-container .Date-p,
+    .father-container .Naira-p
+    {
+        /* position: absolute;
+        width: 95px;
+        height: 17px;
+        left: 433px;
+        top: 754px; */
+        font-family: Avenir LT Std;
+        font-style: normal;
+        font-weight: 750;
+        font-size: 14px;
+        /* line-height: 17px; */
+        color: rgba(32, 32, 32, 0.6);
+    }
+
+
+
+   
 
 
 
