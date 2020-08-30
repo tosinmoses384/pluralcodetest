@@ -140,17 +140,38 @@ SIDEBAR - SECTION
 }
 
 .father-container .white-space {
-    border: 1px dashed red;
-    /* height: 100px; */
+    /* border: 1px dashed red; */
+    height: 250px;
     
 }
 
-.father-container .passprof {
+.father-container .passprof,
+.father-container .setupweb {
+    /* border: 1px dashed red; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    
+    /* margin-bottom: 0.5rem; */
+    margin-top: 2rem;
+}
+
+.father-container .passproof-h3,
+.father-container .setupweb-h3 {
+    /* border: 1px dashed red; */
+    /* position: absolute;
+    width: 122px;
+    height: 17px;
+    left: calc(50% - 122px/2 - 554px);
+    top: calc(50% - 17px/2 + 212.5px); */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.0257883px;
+    color: #5B5B5B;
+
 }
 
 .father-container .logout {
