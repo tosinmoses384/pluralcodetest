@@ -215,6 +215,39 @@
     width: 30%;
 }
 
+.father-container .bellwrapper {
+    /* border: 1px dashed red; */
+    position: relative;
+}
+
+.father-container .round-div {
+    /* border: 1px dashed red; */
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -11px;
+    right: -5px;
+    border: 0;
+    padding: 7px 6px;
+    z-index: 2;
+
+    /* position: absolute;
+    left: 75.44%;
+    right: 23.38%;
+    top: 3.55%;
+    bottom: 95.15%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 6px;
+    /* line-height: 16px; */
+    text-align: center;
+    /* letter-spacing: 0.00676943px; */
+    color: #FFFFFF;
+    height:0px;
+    padding-bottom:19px
+}
+
 .father-container .logout-botton {
     /* position: absolute;
     left: 87.65%;
