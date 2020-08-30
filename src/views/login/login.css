@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+.topmost-div {
+  /* border: 1px dashed red; */
+  background: url('../../assets/img2.png');
+  height: 100%;
+}
+
+.topmost-div .img1-div {
+    /* border: 1px dashed red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.topmost-div .img1 {
+    /* border: 1px dashed red; */
+    height: 70px;
+    /* position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 645px;
+    top: 51px; */
+    /* filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.25)); */
+}
+
+.topmost-div .img3 {
+  height: 70px;
+}
+
+.topmost-div .top-h1 {
+
+
+    /* position: absolute;
+    left: 41.84%;
+    right: 41.76%;
+    top: 37.2%;
+    bottom: 59.73%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    /* text-align: center; */
+    letter-spacing: 0.0257883px;
+    color: #270049;
+}
+
+.topmost-div .top-h3,
+.topmost-div .sys {
+
+
+    /* position: absolute;
+    left: 38.75%;
+    right: 38.75%;
+    top: 42.13%;
+    bottom: 47.87%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* text-align: center; */
+    color: #797979;
+}
+
+.topmost-div form {
+  /* border: 1px dashed red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.topmost-div .input1 {
+    width: 100%!important;
+
+    /* position: absolute;
+    left: 38.82%;
+    right: 38.82%;
+    top: 52.4%;
+    bottom: 41.87%; */
+    background: #FFFFFF;
+    border: 1px solid #725AC1;
+    box-sizing: border-box;
+
+    /* position: absolute;
+    left: 40%;
+    right: 37.5%;
+    top: 54.13%;
+    bottom: 43.2%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404040;
+}
+
+.topmost-div .input2 {
+    width: 100%!important;
+
+
+    /* position: absolute;
+    left: 38.82%;
+    right: 38.82%;
+    top: 59.6%;
+    bottom: 34.67%; */
+    background: #E8E8E8;
+
+    /* position: absolute;
+    left: 40%;
+    right: 37.5%;
+    top: 61.2%;
+    bottom: 36.13%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969696;
+}
+
+.topmost-div .john-div {
+  position: relative;
+  width: 100%;
+}
+
+.topmost-div .imgicon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border: 0;
+  padding: 10px 7px;
+}
+
+.topmost-div .pass-div {
+  position: relative;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.topmost-div .imgicon1 {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  border: 0;
+  padding: 10px 7px;
+}
+
+.topmost-div .right-div {
+  /* border: 1px dashed red; */
+  text-align: right;
+  width: 100%;
+}
+
+.topmost-div .password {
+  /* text-align: right; */
+
+    /* position: absolute;
+    left: 38.68%;
+    right: 38.82%;
+    top: 66.27%;
+    bottom: 31.07%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* text-align: right; */
+    color: #725AC1;
+}
+
+.topmost-div button {
+    width: 100%;
+    padding-top: 8px;
+
+    /* position: absolute;
+    left: 38.82%;
+    right: 38.82%;
+    top: 70.8%;
+    bottom: 22.93%; */
+    background: #063E9B;
+}
+
+.topmost-div .button-h4 {
+
+
+    /* position: absolute;
+    left: 48.6%;
+    right: 48.6%;
+    top: 72.93%;
+    bottom: 24.93%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-align: center; */
+    letter-spacing: 0.00676943px;
+    color: #FFFFFF;
+}
+
+.topmost-div .homepage {
+    /* border: 1px dashed red; */
+    margin-top: 6px;
+
+    /* position: absolute;
+    left: 40.15%;
+    right: 37.35%;
+    top: 79.2%;
+    bottom: 18.13%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #454545;
+}
+
+.topmost-div .create {
+    /* border: 1px dashed red; */
+    margin-top: 3.5px;
+
+    /* position: absolute;
+    left: 38.6%;
+    right: 38.9%;
+    top: 79.2%;
+    bottom: 18.13%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #454545;
+}
+
+.topmost-div .toph3-sys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.topmost-div .bottom-div {
+  /* border: 1px dashed red; */
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topmost-div .icon-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.topmost-div .img5-two {
+  /* border: 1px dashed red; */
+  height: 10px!important;
+  margin-bottom: 5px;
+}
+
+.topmost-div input:focus {
+  outline: 0;
+  /* border-color: #777; */
+}
+
+/* .topmost-div .fas.fa-chevron-left {
+  z-index: 2;
+  background: #000000;
+} */
+
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%
+MY STYLE-UP & DOWN, BRAD-STYLE DOWN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9fafb;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  /* border: 1px dashed red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 465px;
+  margin-bottom: 5.5rem;
+
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+
+  border-bottom: 5px solid #D60026;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}

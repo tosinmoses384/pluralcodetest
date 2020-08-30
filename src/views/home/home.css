@@ -1,11 +1,14 @@
+body {
+    /* border: 1px dashed red; */
+    height: 642px;
+}
+
 .father-container {
     /* border: 1px dashed red; */
     display: flex;
     flex-direction: row;
-
-    /* position: absolute;
-    width: 1360px;
-    height: 846px; */
+    /* width: 100%!important; */
+    height: 100%!important;
     background: #FFFFFF;
     box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
     
@@ -37,10 +40,24 @@
     box-shadow: 40px 4px 100px rgba(159, 155, 155, 0.25);
 }
 
-/* .father-container .white-space {
-    border: 1px dashed red;
-    
-} */
+.father-container .white-space {
+    /* border: 1px dashed red; */
+    width: 100%;
+    height: 100px;
+}
+
+.father-container .logout-space {
+    /* border: 1px dashed red; */
+    height: 260px;
+}
+
+.father-container .inner-div-space {
+    /* border: 1px dashed red; */
+    height: 50px;
+}
+
+
+
 
 .father-container .menu-container {
     /* border: 1px dashed red; */
@@ -132,12 +149,6 @@
     /* letter-spacing: 0.0257883px; */
     color: #000000;
 
-}
-
-.father-container .white-space {
-    /* border: 1px dashed red; */
-    height: 100px;
-    
 }
 
 .father-container .logout {
@@ -359,6 +370,7 @@
         justify-content: space-around;
         align-items: center;
         width: 100%;
+        margin-top: 61px;
     }
 
     .father-container .top-1-div {
@@ -442,13 +454,6 @@
         background: #063E9B;
         color: #fff;
         padding: 2px 8rem;
-    }
-
-    .father-container .bottom {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center
     }
 
     .father-container .top-2-div {
@@ -550,12 +555,15 @@
          flex-direction: column;
          justify-content: space-around;
          align-items: center;
-         width: 100%;
-    }
+         width: 80%;
+         margin-left: -100px;
 
-    .father-container .bottom-1-div {
-        /* border: 1px dashed red; */
-        width: 80%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+        border-radius: 20px;
+
+        padding-bottom: 62px;
+        margin-top:16px;
     }
 
     .father-container .bottom-2-div {
@@ -577,14 +585,16 @@
     }
 
     .father-container .bottom-1-div {
+        /* border: 1px dashed red; */
+        width: 80%;
         /* position: absolute;
         width: 963px;
         height: 573px;
         left: 291px;
         top: 568px; */
-        background: #FFFFFF;
+        /* background: #FFFFFF;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
-        border-radius: 20px;
+        border-radius: 20px; */
 
     }
 
