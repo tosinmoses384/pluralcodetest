@@ -2,12 +2,12 @@
 </template>
 
 <script>
-import navbarsidebar from '../../components/navbarsidebar.vue'
+import driversadd from '../../components/driversadd.vue'
 export default {
   name: 'adddriver',
 
   components: {
-    navbarsidebar
+    driversadd
   },
   data () {
     return {
