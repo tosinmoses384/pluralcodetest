@@ -1,0 +1,89 @@
+.grandfather-div .relative-div {
+    position: relative;
+}
+
+.grandfather-div .bottom {
+    /* border: 1px dashed red; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 400px;
+
+    position: absolute;
+    top: 150px;
+    right: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+}
+
+.grandfather-div .bottom-1-div {
+    /* border: 1px dashed red; */
+    width: 80%;
+
+}
+
+.grandfather-div .bottom-2-div {
+    /* border: 1px dashed red; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.grandfather-div .bottom-3-div {
+    /* border: 1px dashed red; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+    .grandfather-div .hash,
+    .grandfather-div .name,
+    .grandfather-div .Trip,
+    .grandfather-div .Date,
+    .grandfather-div .Amount 
+      {
+        /* position: absolute;
+        left: 64.26%;
+        right: 26.54%;
+        top: 80.5%;
+        bottom: 17.49%; */
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        /* line-height: 16px; */
+        /* letter-spacing: 0.00676943px; */
+        color: #000000;
+      }
+
+      .grandfather-div .Name-p,
+      .grandfather-div .Trip-p,
+      .grandfather-div .Date-p,
+      .grandfather-div .Naira-p
+    {
+          /* position: absolute;
+          width: 95px;
+          height: 17px;
+          left: 433px;
+          top: 754px; */
+          font-family: Avenir LT Std;
+          font-style: normal;
+          font-weight: 750;
+          font-size: 14px;
+          /* line-height: 17px; */
+          color: rgba(32, 32, 32, 0.6);
+      }
+
+      .grandfather-div .naira-red {
+        color: #D82424;
+      }
+  

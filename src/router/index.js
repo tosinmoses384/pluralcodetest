@@ -15,6 +15,7 @@ import login from '../views/login'
 import verifyticketnumber from '../views/verifyticketnumber'
 import paymenthistory from '../views/paymenthistory'
 import settings from '../views/settings'
+import passengers from '../views/passengers'
 
 Vue.use(VueRouter)
 
@@ -60,6 +61,11 @@ const routes = [
     path: '/settings',
     name: 'settings',
     component: settings
+  },
+  {
+    path: '/passengers',
+    name: 'passengers',
+    component: passengers
   },
   {
     path: '/initialhome',
