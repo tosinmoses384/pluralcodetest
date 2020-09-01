@@ -1,5 +1,5 @@
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-CSS FOR THE FORM FOR ADDING NEW TICKET OFFICER
+CSS FOR THE FORM FOR ADDING NEW VEHICLE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /* .grandfather-div {
     border: 1px dashed red;
@@ -68,7 +68,7 @@ CSS FOR THE FORM FOR ADDING NEW TICKET OFFICER
     align-items: center;
     justify-content: space-around;
     width: 45%;
-    height: 80%;
+    height: 40%;
 }
 
 .grandfather-div .title-email,
@@ -102,13 +102,14 @@ CSS FOR THE FORM FOR ADDING NEW TICKET OFFICER
 }
 
 .grandfather-div .right-div-top-for-settings {
-    
+    /* border: 1px dashed red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 47.8%;
+    height: 55%;
     width: 100%;
+    margin-top: 2.5rem;
 }
 
 .grandfather-div .title-city,

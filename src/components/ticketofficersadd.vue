@@ -106,7 +106,90 @@
     <!-- %%%%%%%%%%%%%%%%
      INNER-MAIN-SECTION
     %%%%%%%%%%%%%%%% -->
-    <div class="driver-form-lists">this is the driver form listing...</div>
+     <div class="driver-form-lists-t">
+
+      <div class="bottom">
+        <div class="bottom-1-div">Ticket Officers</div>
+        <div class="bottom-2-div">
+          <h2 class="hash">#</h2>
+          <h2 class="name">Name</h2>
+          <h2 class="Trip">Email</h2>
+          <h2 class="Date">Registered Date</h2>
+          <h2 class="Amount">Phone</h2>
+        </div>
+        <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+        <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+         <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+           <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+          <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+           <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+            <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+            <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+            <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+           <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">John Snow</h2>
+          <h2 class="Trip-p">jdoe@gmail.com</h2>
+          <h2 class="Date-p">(7 Aug 2020)</h2>
+          <h2 class="Naira-p naira-red">09865432176</h2>
+        </div>
+      </div>
+
+    </div>
 
   </div>
 
@@ -388,15 +471,98 @@ SIDEBAR - SECTION
         box-shadow: 40px 4px 100px rgba(159, 155, 155, 0.25);
     }
 
-    .father-container .driver-form-lists {
-    border: 1px dashed red;
+    .father-container .driver-form-lists-t {
+    /* border: 1px dashed red; */
     width: 70%;
     height: 400px;
     margin-top: 30rem;
-    margin-left: 10rem;
+    margin-left: 9rem;
+    overflow: scroll;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
     border-radius: 20px;
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%
+CSS FOR TICKETING OFFICERS
+%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.father-container .driver-form-lists-t .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 400px;
+    margin-top: 410px;
+
+    position: absolute;
+    top: 150px;
+    right: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+}
+
+.father-container .driver-form-lists-t .bottom-1-div {
+    width: 80%;
+
+    margin-right: 7.5rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.00676943px;
+    color: #000000;
+
+}
+
+.father-container .driver-form-lists-t .bottom-2-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.father-container .driver-form-lists-t .bottom-3-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+    .father-container .driver-form-lists-t .hash,
+    .father-container .driver-form-lists-t .name,
+    .father-container .driver-form-lists-t .Trip,
+    .father-container .driver-form-lists-t .Date,
+    .father-container .driver-form-lists-t .Amount
+      {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+
+      .father-container .driver-form-lists-t .Name-p,
+      .father-container .driver-form-lists-t .Trip-p,
+      .father-container .driver-form-lists-t .Date-p,
+      .father-container .driver-form-lists-t .Naira-p
+    {
+          font-family: Avenir LT Std;
+          font-style: normal;
+          font-weight: 750;
+          font-size: 14px;
+          color: rgba(32, 32, 32, 0.6);
+      }
+
+      .father-container .driver-form-lists-t .naira-red {
+        color: #D82424;
+      }
+
 </style>
