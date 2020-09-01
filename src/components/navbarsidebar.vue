@@ -106,6 +106,7 @@
     <!-- %%%%%%%%%%%%%%%%
      INNER-MAIN-SECTION
     %%%%%%%%%%%%%%%% -->
+    <div class="driver-form-lists">this is the driver form listing...</div>
 
   </div>
 
@@ -130,6 +131,7 @@ export default {
     flex-direction: row;
     background: #FFFFFF;
     box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
+    height: 1600px;
 }
 
 /* .father-container .image-div {
@@ -382,4 +384,14 @@ SIDEBAR - SECTION
         background: #FFFFFF;
         box-shadow: 40px 4px 100px rgba(159, 155, 155, 0.25);
     }
+
+    .father-container .driver-form-lists {
+    border: 1px dashed red;
+    width: 60%;
+    height: 400px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+}
 </style>
