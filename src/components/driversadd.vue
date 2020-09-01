@@ -107,6 +107,12 @@
      INNER-MAIN-SECTION
     %%%%%%%%%%%%%%%% -->
     <div class="driver-form-lists-d">
+       <div class="plc-div">
+        <h3 class="h3-plc">Dashboard</h3>
+        <!-- <div class="cover-div">
+          <div class="fill-div"></div>
+       </div> -->
+      </div>
 
       <div class="bottom">
         <div class="bottom-1-div">Drivers</div>
@@ -504,6 +510,19 @@ CSS FOR DRIVER LISTING
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
     border-radius: 20px;
+}
+
+.father-container .driver-form-lists-d .plc-div {
+   /* border: 1px dashed red; */
+    position: absolute;
+    top: 80px;
+    left: 193px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    background: #D82424;
+    border-radius: 4px;
 }
 
 .father-container .driver-form-lists-d .bottom-1-div {
