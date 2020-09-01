@@ -16,6 +16,7 @@ import verifyticketnumber from '../views/verifyticketnumber'
 import paymenthistory from '../views/paymenthistory'
 import settings from '../views/settings'
 import passengers from '../views/passengers'
+import adddriver from '../views/adddriver'
 
 Vue.use(VueRouter)
 
@@ -66,6 +67,11 @@ const routes = [
     path: '/passengers',
     name: 'passengers',
     component: passengers
+  },
+  {
+    path: '/adddriver',
+    name: 'adddriver',
+    component: adddriver
   },
   {
     path: '/initialhome',
