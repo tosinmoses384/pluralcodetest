@@ -1,0 +1,65 @@
+/* %%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%% */
+
+.grandfather-div .relative-div {
+    position: relative;
+}
+
+.grandfather-div .top-1-div {
+    /* border: 1px dashed red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 1.5rem 1.5rem;
+    margin-left: 2rem;
+
+    position: absolute;
+    top: 200px;
+    right: 400px;
+
+    width: 446px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+
+}
+
+.grandfather-div .top-1-div-h3 {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #979797;
+} 
+
+.grandfather-div .top-1-div-p,
+.grandfather-div .centered {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.25);
+}
+
+.grandfather-div .input-class {
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        margin-bottom: 0.5rem;
+        width: 60%;
+}
+
+.grandfather-div .verify {
+    /* border: 1px dashed red; */
+    background: #063E9B;
+    color: #fff;
+    padding: 2px 8rem;
+    width: 30%!important;
+}
+
+.grandfather-div .centered {
+    text-align: center;
+}

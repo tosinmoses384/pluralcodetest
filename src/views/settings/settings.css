@@ -1,0 +1,251 @@
+.grandfather-div .relative-div {
+    position: relative;
+}
+
+.grandfather-div .bottom {
+    /* border: 1px dashed red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    height: 400px;
+
+    position: absolute;
+    top: 150px;
+    right: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+}
+
+.grandfather-div .bottom-1-div {
+    /* border: 1px dashed red; */
+    width: 80%;
+    margin-right: 7.5rem;
+
+    /* position: absolute;
+    left: 25.15%;
+    right: 54.71%;
+    top: 26.36%;
+    bottom: 69.5%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.00676943px;
+    color: #000000;
+}
+
+.grandfather-div .pup {
+    /* position: absolute;
+    width: 122px;
+    height: 17px;
+    left: calc(50% - 122px/2 - 173px);
+    top: calc(50% - 17px/2 - 185.5px); */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.0257883px;
+    color: #5B5B5B;
+}
+
+.grandfather-div .main-set-div {
+    /* border: 1px dashed red; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 85%;
+}
+
+.grandfather-div .left-div {
+    /* border: 1px dashed red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    height: 60%;
+}
+
+.grandfather-div .title-email,
+.grandfather-div .title-phone,
+.grandfather-div .title-address {
+    width: 90%;
+    padding: 7px 7px;
+
+    /* position: absolute;
+    width: 389px;
+    height: 49px;
+    left: 342px;
+    top: 525px; */
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+.grandfather-div .red {
+    width: 90%;
+    padding: 7px 7px;
+
+    /* position: absolute;
+    width: 389px;
+    height: 49px;
+    left: 342px;
+    top: 333px; */
+    background: #FFFFFF;
+    border: 1px solid #D60026;
+    box-sizing: border-box;
+}
+
+.grandfather-div .right-div {
+    /* border: 1px dashed red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 60%;
+}
+
+.grandfather-div .right-div-top-for-settings {
+    /* border: 1px dashed red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 47.8%;
+    width: 100%;
+}
+
+.grandfather-div .title-city,
+.grandfather-div .title-state {
+    width: 90%;
+    padding: 7px 7px;
+
+    /* position: absolute;
+    width: 419px;
+    height: 49px;
+    left: 811px;
+    top: 333px; */
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+}
+
+.grandfather-div .mg-top-div {
+    margin-top: 5px;
+}
+
+
+.grandfather-div .right-div-bottom1 {
+    /* border: 1px dashed red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 18%;
+}
+
+.grandfather-div .update-profile {
+    width: 45%;
+    height: 100%;
+
+    /* position: absolute;
+    width: 205px;
+    height: 49px;
+    left: 811px;
+    top: 470px; */
+    background: #063E9B;
+
+    /* position: absolute;
+    left: 63.38%;
+    right: 28.16%;
+    top: 57.45%;
+    bottom: 40.66%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-align: center;
+    letter-spacing: 0.00676943px; */
+    color: #FFFFFF;
+}
+
+.grandfather-div .change-password {
+    width: 45%;
+    height: 100%;
+
+    /* position: absolute;
+    width: 195px;
+    height: 49px;
+    left: 1035px;
+    top: 470px; */
+    background: rgba(0, 0, 0, 0.05);
+
+    /* position: absolute;
+    left: 78.6%;
+    right: 11.99%;
+    top: 57.45%;
+    bottom: 40.66%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-align: center;
+    letter-spacing: 0.00676943px; */
+    color: #063E9B;
+
+} 
+
+.grandfather-div .right-div-bottom2 {
+    /* border: 1px dashed red; */
+    width: 50%;
+    margin-right: 9.8rem;
+    padding-left: 5px;
+    padding-top: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+
+    /* position: absolute;
+    width: 205px;
+    height: 49px;
+    left: 811px;
+    top: 534px; */
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.grandfather-div .config {
+    /* position: absolute;
+    left: 60.81%;
+    right: 26.4%;
+    top: 65.01%;
+    bottom: 33.1%; */
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    /* text-align: center;
+    letter-spacing: 0.00676943px; */
+    color: #D60026;
+} 

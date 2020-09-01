@@ -22,9 +22,6 @@
     
 }
 
-/* %%%%%%%%%%%%%%%%
-SIDEBAR - SECTION
-%%%%%%%%%%%%%%%  */
 .father-container .sidebar-div {
     /* border: 1px dashed red; */
     width: 15%;
@@ -52,8 +49,6 @@ SIDEBAR - SECTION
     align-items: center;
     justify-content: center;
     padding-left: 1rem;
-    /* height: 300px; */
-    width: 100%!important;
 
 }
 
@@ -68,10 +63,10 @@ SIDEBAR - SECTION
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%!important;
+    width: 100%;
     padding-top:0;
     padding-right: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0
 }
 
 .father-container .dashboard-h3,
@@ -141,37 +136,8 @@ SIDEBAR - SECTION
 
 .father-container .white-space {
     /* border: 1px dashed red; */
-    height: 250px;
+    height: 100px;
     
-}
-
-.father-container .passprof,
-.father-container .setupweb {
-    /* border: 1px dashed red; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    /* margin-bottom: 0.5rem; */
-    margin-top: 2rem;
-}
-
-.father-container .passproof-h3,
-.father-container .setupweb-h3 {
-    /* border: 1px dashed red; */
-    /* position: absolute;
-    width: 122px;
-    height: 17px;
-    left: calc(50% - 122px/2 - 554px);
-    top: calc(50% - 17px/2 + 212.5px); */
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 23px;
-    letter-spacing: 0.0257883px;
-    color: #5B5B5B;
-
 }
 
 .father-container .logout {
@@ -226,16 +192,13 @@ SIDEBAR - SECTION
     /* border: 1px dashed red; */
     margin-left: 2rem;
     margin-bottom: 2rem;
-    margin-top: 21px;
-
     /* position: absolute; */
     width: 28px;
-    /* height: 2px; */
+    height: 2px;
     /* left: 239px;
     top: 51px; */
-   
 
-    /* background: #FFFFFF; */
+    background: #FFFFFF;
     /* border-radius: 30px; */
 }
 
@@ -247,39 +210,6 @@ SIDEBAR - SECTION
     align-items: center;
     margin-right: 2rem;
     width: 30%;
-}
-
-.father-container .bellwrapper {
-    /* border: 1px dashed red; */
-    position: relative;
-}
-
-.father-container .round-div {
-    /* border: 1px dashed red; */
-    background-color: red;
-    border-radius: 50%;
-    position: absolute;
-    top: -11px;
-    right: -5px;
-    border: 0;
-    padding: 7px 6px;
-    z-index: 2;
-
-    /* position: absolute;
-    left: 75.44%;
-    right: 23.38%;
-    top: 3.55%;
-    bottom: 95.15%; */
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 6px;
-    /* line-height: 16px; */
-    text-align: center;
-    /* letter-spacing: 0.00676943px; */
-    color: #FFFFFF;
-    height:0px;
-    padding-bottom:19px
 }
 
 .father-container .logout-botton {
@@ -295,10 +225,6 @@ SIDEBAR - SECTION
 }
 
 .father-container .topmost-h {
-    padding-top: 0.5rem;
-    padding-left: 1.2rem;
-    width: 90px;
-
     /* position: absolute;
     left: 89.49%;
     right: 5.15%;
@@ -311,11 +237,11 @@ SIDEBAR - SECTION
     /* line-height: 16px;
     text-align: center;
     letter-spacing: 0.00676943px; */
+
     color: #FFFFFF;
 }
 
 .father-container .photo-div {
-
     /* position: absolute; */
     width: 30px;
     height: 30px;
@@ -325,18 +251,16 @@ SIDEBAR - SECTION
     /* background: url(36849437_1978554375542644_3007295268405116928_n.jpg); */
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
-
-    border: none;
 }
 
 /* .father-container .search-div {
-    border: 1px dashed red;
     position: absolute;
     left: 2.15%;
     right: 2.15%;
     top: 2.15%;
     bottom: 2.15%;
     background: #FFFFFF;
+
 } */
 
 .father-container .email-div,
@@ -351,16 +275,11 @@ SIDEBAR - SECTION
 
 .father-container .plc-div {
     /* border: 1px dashed red; */
-    position: absolute;
-    top: 0;
-    left: 0px;
-    /* border: 0;
-    padding: 10px 7px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     /* align-items: center; */
-    width: 20%;
+    /* width: 20%; */
     /* position: absolute;
     left: 13.75%;
     right: 70.51%;
@@ -374,7 +293,7 @@ SIDEBAR - SECTION
 
     .father-container .h3-plc {
         /* border: 1px dashed red; */
-        width: 100%;
+        width: 20%;
         /* background: #D82424; */
 
         /* position: absolute;
@@ -396,7 +315,7 @@ SIDEBAR - SECTION
     .father-container .cover-div {
         /* border: 1px dashed red; */
         width: 70%;
-        background-color: red!important;
+        background: #fff!important;
         box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.25);
 
     }
@@ -413,13 +332,10 @@ SIDEBAR - SECTION
 
     .father-container .inner-main-div {
         /* border: 1px dashed red; */
-        position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-top: 3rem;
-
         /* position: absolute;
         width: 1360px;
         height: 846px; */
@@ -567,3 +483,25 @@ SIDEBAR - SECTION
         color: #425FC6;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
