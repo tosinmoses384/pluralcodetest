@@ -19,6 +19,7 @@ import passengers from '../views/passengers'
 import adddriver from '../views/adddriver'
 import addticketofficer from '../views/addticketofficer'
 import addvehicles from '../views/addvehicles'
+import setnewroute from '../views/setnewroute'
 
 Vue.use(VueRouter)
 
@@ -84,6 +85,11 @@ const routes = [
     path: '/addvehicles',
     name: 'addvehicles',
     component: addvehicles
+  },
+  {
+    path: '/setnewroute',
+    name: 'setnewroute',
+    component: setnewroute
   },
   {
     path: '/initialhome',

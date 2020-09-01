@@ -106,7 +106,101 @@
     <!-- %%%%%%%%%%%%%%%%
      INNER-MAIN-SECTION
     %%%%%%%%%%%%%%%% -->
-    <div class="driver-form-lists">this is the driver form listing...</div>
+   <div class="driver-form-lists-v">
+
+      <div class="bottom">
+        <div class="bottom-1-div">Route</div>
+        <div class="bottom-2-div">
+          <h2 class="hash">#</h2>
+          <h2 class="name">From</h2>
+          <h2 class="name"> - </h2>
+          <h2 class="Trip">To</h2>
+          <h2 class="Date">Trip Type</h2>
+          <h2 class="Amount">Amount</h2>
+        </div>
+        <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+        <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+          <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+           <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+          <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+          <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+           <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+           <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+             <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+            <div class="bottom-3-div">
+          <img src="../assets/Vector_1.png" alt="check" class="check">
+          <h2 class="Name-p">Lagos</h2>
+          <h2 class="Trip-p"> - </h2>
+          <h2 class="Date-p">Warri</h2>
+          <h2 class="Date-p">Local Trip</h2>
+          <h2 class="Naira-p naira-red">$95</h2>
+        </div>
+      </div>
+
+    </div>
 
   </div>
 
@@ -399,4 +493,86 @@ SIDEBAR - SECTION
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
     border-radius: 20px;
 }
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%
+CSS FOR SETTING NEW ROUTE
+%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.father-container .driver-form-lists-v .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 400px;
+    margin-top: 410px;
+
+    position: absolute;
+    top: 150px;
+    right: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+    border-radius: 20px;
+}
+
+.father-container .driver-form-lists-v .bottom-1-div {
+    width: 80%;
+
+    margin-right: 7.5rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 16px;
+    letter-spacing: 0.00676943px;
+    color: #000000;
+
+}
+
+.father-container .driver-form-lists-v .bottom-2-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.father-container .driver-form-lists-v .bottom-3-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+    .father-container .driver-form-lists-v .hash,
+    .father-container .driver-form-lists-v .name,
+    .father-container .driver-form-lists-v .Trip,
+    .father-container .driver-form-lists-v .Date,
+    .father-container .driver-form-lists-v .Amount
+      {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+      }
+
+      .father-container .driver-form-lists-v .Name-p,
+      .father-container .driver-form-lists-v .Trip-p,
+      .father-container .driver-form-lists-v .Date-p,
+      .father-container .driver-form-lists-v .Naira-p
+    {
+          font-family: Avenir LT Std;
+          font-style: normal;
+          font-weight: 750;
+          font-size: 14px;
+          color: rgba(32, 32, 32, 0.6);
+      }
+
+      .father-container .driver-form-lists-v .naira-red {
+        color: #D82424;
+      }
+
 </style>
